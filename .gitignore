@@ -1,0 +1,16 @@
+# Ignore all node_modules folders recursively
+**/node_modules/
+
+# Ignore all __pycache__ folders recursively
+**/__pycache__/
+
+**/.idea
+
+# Ignore Python compiled files
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore environment files and secret keys
+.env
+secret_key.py
