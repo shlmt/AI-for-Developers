@@ -1,0 +1,24 @@
+{
+    "persons": [
+        {
+            "Name": "Avi",
+            "Address": {
+                "City": "Jerusalem",
+                "Street": {
+                    "Name": "Yirmiyahu",
+                    "Number": "100"
+                }
+            }
+        },
+        {
+            "Name": "Yosi",
+            "Address": {
+                "City": "Ramat Gan",
+                "Street": {
+                    "Name": "HaYarkon",
+                    "Number": "16"
+                }
+            }
+        }
+    ]
+}
