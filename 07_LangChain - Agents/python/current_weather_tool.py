@@ -6,7 +6,7 @@ from secret_keys import open_weather_key
 @tool
 def get_current_weather(location) -> dict:
     """
-    get current weather information for a given city, country code.
+    get current weather information for a given city, country code. The input must be in the format 'City,CountryCode'
     """
     pattern = r'^[^,]+,[A-Za-z]{2}$'
     if not re.match(pattern, location):

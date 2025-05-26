@@ -22,11 +22,7 @@ tools = [
         func=wikipedia.run,
         description="useful for getting information about a place from Wikipedia",
     ),
-    Tool(
-        name="CurrentWeather",
-        func=get_current_weather.run,
-        description="Use this tool to get the current weather of a location. The input must be in the format 'City,CountryCode', e.g., 'Jerusalem,IL'.",
-    ),
+    get_current_weather
 ]
 
 agent = initialize_agent(
