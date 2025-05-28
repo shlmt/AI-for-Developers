@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "AgentGraph",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node AgentGraph",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/core": "^0.3.57",
+    "@langchain/groq": "^0.2.2",
+    "@langchain/langgraph": "^0.2.73",
+    "dotenv": "^16.5.0",
+    "zod": "^3.25.32"
+  },
+  "type": "module"
+}
