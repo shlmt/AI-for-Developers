@@ -1,0 +1,19 @@
+{
+	"servers": {
+		"bmi-analyzer": {
+			"type": "stdio",
+			"command": "C:/Users/משתמש/AppData/Local/Programs/Python/Python312/python.exe",
+			"args": [
+				"c:/Users/משתמש/הנדסת תוכנה/ai for developers/תרגילים שלי/10_MCPs/python/server.py"
+			]
+		},
+		"dates-calculator": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+				"C:\\Users\\משתמש\\הנדסת תוכנה\\ai for developers\\תרגילים שלי\\10_MCPs\\nodejs\\server.js"
+			]
+		}
+	},
+	"inputs": []
+}
